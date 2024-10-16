@@ -19,10 +19,11 @@ body {
 }
 
 img {
-    width: 150px;
-    height: 150px;
+    width: 250px; /* Increased image size */
+    height: 250px;
     border-radius: 50%;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    object-fit: cover; /* Ensures image is cropped nicely */
 }
 
 h1 {
